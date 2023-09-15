@@ -21,10 +21,10 @@ denominator1: int = int(input('Введите знаменатель перво�
 numerator2: int = int(input('Введите числитель второй дроби: '))
 denominator2: int = int(input('Введите знаменатель второй дроби: '))
 
-sum: str = check_equal(numerator1 * denominator2 + numerator2 * denominator1, denominator1 * denominator2)
+summ: str = check_equal(numerator1 * denominator2 + numerator2 * denominator1, denominator1 * denominator2)
 power: str = check_equal(numerator1 * numerator2, denominator1 * denominator2)
 
-print('Сумма дробей =', sum)
+print('Сумма дробей =', summ)
 print('Проверка через Fraccion():', Fraction(numerator1, denominator1) + Fraction(numerator2, denominator2))
 print('Произведение дробей =', power)
 print('Проверка через Fraccion():', Fraction(numerator1, denominator1) * Fraction(numerator2, denominator2))
